@@ -1,0 +1,58 @@
+body{
+    width: 500px;
+    margin: 0 auto;
+    background-color: beige;
+}
+#matrix{
+    
+    border-collapse: collapse;
+    margin: 0 auto 20px auto;
+}
+caption{
+    font-size: 40px;
+    font-weight: bold;
+    color: #abcdef;
+    text-shadow:5px 5px 5px #999999;
+}
+td{
+    font-weight: bold;
+    font-size: 40px;
+    border: solid 3px black;
+    padding: 20px;
+    text-align: center;
+    text-shadow:5px 5px 5px #999999;
+}
+.now{
+    background-color: red;
+    color: yellow;
+}
+.old{
+    background-color: blue;
+    color: orange;
+}
+.buttons{
+    margin: 0 auto;
+    text-align: center;
+}
+button{
+    border-radius: 3px;
+    border-bottom: solid 4px #627295;
+    width: 120px;
+    font-size: 20px;
+}
+button:active {
+    /*ボタンを押したとき*/
+    transform: translateY(2px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+}
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: greenyellow;
+}
